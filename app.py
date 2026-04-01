@@ -147,14 +147,11 @@ def sitemap():
 # ──────────────────────────────────────────────
 # Routes
 # ──────────────────────────────────────────────
-@app.route("/")
-def index():
-    """Serve the main landing page."""
-    return render_template("index.html")
+
 
 
 # ── Individual Service Pages ──
-@app.route("/tree-maintenance/")
+@app.route("/")
 def tree_maintenance():
     """Tree maintenance service landing page."""
     return render_template("tree-maintenance.html")
