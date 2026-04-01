@@ -116,7 +116,7 @@
             // PRIMARY: geo.php on same server — reads Cloudflare geo headers
             // No rate limits, no CORS issues, works on mobile
             {
-                url: "geo.php",
+                url: "/geo.php",
                 parse: function (d) { return d.city || d.region || d.locationName; }
             },
             // Fallback 1: ipapi.co (supports HTTPS, 1k/day free)
