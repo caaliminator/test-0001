@@ -1,0 +1,13 @@
+# robots.txt — ArborCentric Solutions
+# https://www.arborcentricsolutions.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block utility/internal pages from indexing
+Disallow: /treecare/submit-form
+Disallow: /treecare/form-error
+Disallow: /treecare/thank-you
+
+# Sitemap location
+Sitemap: https://www.arborcentricsolutions.com/sitemap.xml
